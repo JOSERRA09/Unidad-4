@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formulario</h1>
+
+        <form class="login-form">
+
+            <div class="form-group">
+                <label for="username">Correo Electrónico:</label>
+                <input type="text" id="username" placeholder="Ingrese su usuario" required>
+            </div>
+
+            <div class="form-group">
+                
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" placeholder="Ingrese su contraseña" required>
+            </div>
+
+            <div class="form-group">
+                <label></label>
+                <div>
+                    <input type="checkbox" id="admin" value="administrador">
+                    
+                    <label for="admin">
+                        
+                        Administrador
+
+                    </label>
+
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="gerente" value="gerente">
+
+                    <label for="gerente">
+                        
+                        
+                        Gerente
+
+                    </label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="propietario" value="propietario">
+
+
+                    <label for="propietario">
+                        
+                        Propietario
+
+
+                    </label>
+                </div>
+
+                <div>
+
+                    <input type="checkbox" id="agente_ventas" value="agentes_ventas">
+
+                    <label for="agente_ventas">
+                        
+                        
+                        Agente de Ventas
+
+
+
+                    </label>
+
+                </div>
+                <div>
+                    <input type="checkbox" id="prospecto" value="prospecto">
+
+
+                    <label for="prospecto">
+                        
+                        Prospecto
+
+
+
+                    </label>
+
+                </div>
+            </div>
+
+
+            <button type="submit">
+                
+                Acceder
+
+
+
+            </button>
+        </form>
+
+        <p><a href="#">Olvidó su contraseña?</a></p>
+    </div>
+
+</body>
+</html>
